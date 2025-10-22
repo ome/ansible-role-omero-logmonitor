@@ -6,5 +6,5 @@
     name: ome.omero_common
 
 - name: omero log monitor  | Include ome.python3_virtualenv
-  ansible.builtin.include_role:
+  ansible.builtin.import_role:
     name: ome.python3_virtualenv
